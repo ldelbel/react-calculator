@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ldelbel/react-calculator">
-    <img src="logo.png" alt="Logo" width="300">
+    <img src="logo.png" alt="Logo" width="100">
   </a>
 
   <h2 align="center">Calculator</h2>
