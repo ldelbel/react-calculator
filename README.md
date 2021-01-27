@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![View Code](https://img.shields.io/badge/View%20-Code-green)]()
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)]()
+[![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)]()
 
-## Available Scripts
+<br />
+<p align="center">
+  <a href="https://github.com/ldelbel/react-calculator">
+    <img src="logo.png" alt="Logo" width="300">
+  </a>
 
-In the project directory, you can run:
+  <h2 align="center">Calculator</h2>
 
-### `npm start`
+  <h3 align="center">Simple calculator built with React<h3>
+  <p align="center">
+    <a href="https://github.com/ldelbel/react-calculator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    -
+    <a href="https://github.com/ldelbel/react-calculator/issues">Report Bug</a>
+    -
+    <a href="https://github.com/ldelbel/react-calculator/pulls">Request Feature</a>
+    -
+  </p>
+</p>
+    
+## Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#ins">Installing</a> •
+  <a href="#testing">Testing</a> •
+  <a href="#with">Built With</a> •
+  <a href="#tested">Tested With</a> •
+  <a href="#author">Author</a>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About <a name = "about"></a>
+ 
+Simple calculator with UI to be used in the browser 
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![screenshot](screenshot.gif) 
 
-### `npm test`
+## Live Demo Link <a name = "ldl"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Live Demo](https://react-calc-lds.herokuapp.com/)
 
-### `npm run build`
+## 🔧 Built with <a name = "with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Javascript
+- ReactJS
+- npm
+- CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Tested with <a name = "tested"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Jest
 
-### `npm run eject`
+## 🛠 Requirements <a name = "req"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You'll need a package manager to install the dependencies listed in package.json in order to make the game work in your local machine.
+This project used NPM. The installation guide can be found [Here](https://www.npmjs.com/get-npm).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔨 Setup and Installing <a name = "ins"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To setup the project, run the following commands on terminal:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+$ cd <folder> (the place you want to have the files installed)
+$ git clone https://github.com/ldelbel/react-calculator.git
+$ cd react-calculator
+$ npm install
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will install the dependencies in your local machine. This process can take a few minutes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔨 Running the Game Locally
 
-### Code Splitting
+After installing the dependencies you can start your game running the code below
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+$ npm start
 
-### Analyzing the Bundle Size
+```
+If your default broswer doesn't open automatically, visit http://localhost/3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🛠 Testing <a name = "testing"></a>
 
-### Making a Progressive Web App
+To run the tests (built with Jest), run the command below
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+$ npm test
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ✒️ Author <a name = "author"></a>
 
-### Deployment
+👤 **Lucas Delbel**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Github: [@ldelbel](https://github.com/ldelbel)
+- Twitter: [@delbel_lucas](https://twitter.com/delbel_lucas)
+- Linkedin: [lucasdelbel](https://www.linkedin.com/in/lucasdelbel/)
 
-### `npm run build` fails to minify
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page]().
+
+## 👍 Show your support
+
+Give a ⭐️ if you like this project!
+
+## :clap: Acknowledgements
+
+- Microverse: [@microverse](https://www.microverse.org/)
+- React: [@react](https://reactjs.org/)
