@@ -1,74 +1,119 @@
-# Project Name
+# Calculator
 
-> One paragraph statement about the project.
+[![View Code](https://img.shields.io/badge/View%20-Code-green)]()
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)]()
+[![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)]()
 
-![screenshot](./app_screenshot.png)
+<br />
+<p align="center">
+  <a href="https://github.com/ldelbel/react-calculator">
+    <img src="logo.png" alt="Logo" width="100">
+  </a>
 
-Additional description about the project and its features.
+  <h2 align="center">Calculator</h2>
 
-## Built With
+  <h3 align="center">Simple calculator built with React<h3>
+  <p align="center">
+    <a href="https://github.com/ldelbel/react-calculator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    -
+    <a href="https://github.com/ldelbel/react-calculator/issues">Report Bug</a>
+    -
+    <a href="https://github.com/ldelbel/react-calculator/pulls">Request Feature</a>
+    -
+  </p>
+</p>
+    
+## Content
 
-- Major languages,
-- frameworks,
-- technologies used
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#ins">Installing</a> •
+  <a href="#testing">Testing</a> •
+  <a href="#with">Built With</a> •
+  <a href="#tested">Tested With</a> •
+  <a href="#author">Author</a>
+</p>
 
-## Live Demo
+## About <a name = "about"></a>
+ 
+Simple calculator with UI to be used in the browser 
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![screenshot](screenshot.gif) 
 
-[Live Demo Link](https://livedemo.com)
+## Live Demo Link <a name = "ldl"></a>
 
+[Live Demo](https://react-calc-lds.herokuapp.com/)
 
-## Getting Started
+## 🔧 Built with <a name = "with"></a>
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Javascript
+- ReactJS
+- npm
+- CSS
 
+## 🔧 Tested with <a name = "tested"></a>
 
-To get a local copy up and running follow these simple example steps.
+- Jest
 
-### Prerequisites
+## 🛠 Requirements <a name = "req"></a>
 
-### Setup
+You'll need a package manager to install the dependencies listed in package.json in order to make the game work in your local machine.
+This project used NPM. The installation guide can be found [Here](https://www.npmjs.com/get-npm).
 
-### Install
+## 🔨 Setup and Installing <a name = "ins"></a>
 
-### Usage
+To setup the project, run the following commands on terminal:
 
-### Run tests
+```
+$ cd <folder> (the place you want to have the files installed)
+$ git clone https://github.com/ldelbel/react-calculator.git
+$ cd react-calculator
+$ npm install
 
-### Deployment
+```
 
+This will install the dependencies in your local machine. This process can take a few minutes.
 
+## 🔨 Running the Game Locally
 
-## Authors
+After installing the dependencies you can start your game running the code below
 
-👤 **Author1**
+```
+$ npm start
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+```
+If your default broswer doesn't open automatically, visit http://localhost/3000.
 
-👤 **Author2**
+## 🛠 Testing <a name = "testing"></a>
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+To run the tests (built with Jest), run the command below
+
+```
+$ npm test
+
+```
+
+## ✒️ Author <a name = "author"></a>
+
+👤 **Lucas Delbel**
+
+- Github: [@ldelbel](https://github.com/ldelbel)
+- Twitter: [@delbel_lucas](https://twitter.com/delbel_lucas)
+- Linkedin: [lucasdelbel](https://www.linkedin.com/in/lucasdelbel/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page]().
 
-## Show your support
+## 👍 Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## :clap: Acknowledgements
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- Microverse: [@microverse](https://www.microverse.org/)
+- React: [@react](https://reactjs.org/)
