@@ -4,8 +4,10 @@ import ButtonPanel from './ButtonPanel';
 
 const App = () => (
   <div className="App">
-    <Display />
-    <ButtonPanel />
+    <>
+      <Display />
+      <ButtonPanel />
+    </>
   </div>
 );
 
