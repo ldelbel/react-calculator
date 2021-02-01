@@ -1,14 +1,18 @@
 import operate from './Operate';
 
+let isTotal = true;
+
 const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
-  let isTotal = true;
+
   const operators = ['÷', 'x', '+', '-'];
+  const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
 
   if (buttonName === 'AC') {
     total = null;
     next = null;
     operation = null;
+    isTotal = true;
   } else if (buttonName === '+/-') {
     if (isTotal) {
       (total *= -1).toString();
@@ -22,19 +26,23 @@ const calculate = (data, buttonName) => {
       (next /= 100).toString();
     }
   } else if (operators.includes(buttonName)) {
-    if (!isTotal) return;
-    operation = `${buttonName}`;
-    isTotal = !isTotal;
-  } else if (!Number.isNaN(buttonName) || buttonName === '.') {
     if (isTotal) {
-      total = total === '0' ? buttonName : total + buttonName;
+      operation = `${buttonName}`;
+      isTotal = !isTotal;
+    }
+  } else if (digits.includes(buttonName)) {
+    if (isTotal) {
+      total = total === null ? buttonName : total + buttonName;
     } else {
-      next = next === '0' || next === null ? buttonName : next + buttonName;
+      next = next === null ? buttonName : next + buttonName;
     }
   } else if (buttonName === '=') {
     isTotal = !isTotal;
-    operate(total, next, operation);
+    total = operate(total, next, operation);
+    next = null;
   }
+
+  return { total, next, operation };
 };
 
 export default calculate;
