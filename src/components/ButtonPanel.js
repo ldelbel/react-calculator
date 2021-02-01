@@ -1,37 +1,42 @@
+import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = () => (
-  <>
-    <div>
-      <Button name="AC" />
-      <Button name="+/-" />
-      <Button name="%" />
-      <Button name="÷" />
-    </div>
-    <div>
-      <Button name="7" />
-      <Button name="8" />
-      <Button name="9" />
-      <Button name="x" />
-    </div>
-    <div>
-      <Button name="4" />
-      <Button name="5" />
-      <Button name="6" />
-      <Button name="-" />
-    </div>
-    <div>
-      <Button name="1" />
-      <Button name="2" />
-      <Button name="3" />
-      <Button name="+" />
-    </div>
-    <div>
-      <Button name="0" />
-      <Button name="." />
-      <Button name="=" />
-    </div>
-  </>
-);
+const ButtonPanel = ({ clickHandler }) => {
+  const board = [
+    ['AC', '+/-', '%', '÷'],
+    ['7', '8', '9', 'x'],
+    ['4', '5', '6', '-'],
+    ['1', '2', '3', '+'],
+    ['0', '.', '='],
+  ];
+
+  const createButton = name => (
+    <Button name={name} clickHandler={() => clickHandler(name)} key={name} />
+  );
+
+  const createRow = (row, index) => {
+    const buttons = row.map(btn => createButton(btn));
+    return (
+      <div key={index}>
+        { buttons }
+      </div>
+    );
+  };
+
+  const printBoard = board => {
+    const display = board.map((row, index) => createRow(row, index));
+    return display;
+  };
+
+  return (
+    <>
+      { printBoard(board) }
+    </>
+  );
+};
+
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
+};
 
 export default ButtonPanel;
