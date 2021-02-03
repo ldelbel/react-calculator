@@ -1,6 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Calc from './components/Calc';
-import App from './components/calculator/App';
 import Home from './components/Home';
 import Quote from './components/Quote';
 

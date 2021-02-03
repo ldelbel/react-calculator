@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <StyledNav>
-      <img src={logo}></img>
+      <img src={logo} alt="img" />
       <div>
         <Link to="/">Home</Link>
         <Link to="/calc">Calculator</Link>
