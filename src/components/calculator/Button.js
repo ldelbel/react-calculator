@@ -12,8 +12,8 @@ const Button = props => {
   text-align: center;
   width: ${name === '0' ? '50%' : '25%'};
   height: 100%;
-  font-size: 1.3em;
-  font-weight: bold;
+  font-size: 1.5em;
+  font-weight: 600;
 `;
 
   return (

@@ -11,7 +11,7 @@ const Display = props => {
     height: '100px',
     margin: '0',
     padding: '0 20px',
-    'font-size': '2.5em',
+    'font-size': '2.7em',
   };
   return (
     <h1 style={styles}>{result}</h1>
