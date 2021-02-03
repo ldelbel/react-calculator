@@ -17,7 +17,7 @@ const ButtonPanel = ({ clickHandler }) => {
   const createRow = (row, index) => {
     const buttons = row.map(btn => createButton(btn));
     return (
-      <div key={index}>
+      <div key={index} style={{ height: '100px' }}>
         { buttons }
       </div>
     );

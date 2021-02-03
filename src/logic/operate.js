@@ -8,7 +8,9 @@ const operate = (numberOne, numberTwo, operation) => {
     '-': (n1, n2) => n1.minus(n2),
     x: (n1, n2) => n1.times(n2),
     '÷': (n1, n2) => {
-      if (n2 === '0') return 'Error: Division by 0';
+      if (n2.c[0] === 0) {
+        return 'Error: Division by 0';
+      }
       return n1.div(n2);
     },
   };
