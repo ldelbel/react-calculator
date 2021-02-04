@@ -1,4 +1,4 @@
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import logo from '../assets/math.png';
 
@@ -35,11 +35,9 @@ const Navbar = () => {
     <StyledNav>
       <img src={logo} alt="img" />
       <div>
-        <Router>
-          <Link to="/">Home</Link>
-          <Link to="/calc">Calculator</Link>
-          <Link to="/quote">Quote</Link>
-        </Router>
+        <Link to="/">Home</Link>
+        <Link to="/calc">Calculator</Link>
+        <Link to="/quote">Quote</Link>
       </div>
     </StyledNav>
   );
