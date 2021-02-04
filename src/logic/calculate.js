@@ -40,6 +40,7 @@ const calculate = (data, buttonName) => {
     isTotal = !isTotal;
     total = operate(total, next, operation);
     next = null;
+    operation = null;
   }
 
   return { total, next, operation };

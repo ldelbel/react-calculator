@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav
+    className="sc-bdfBwQ hjshVr"
+  >
+    <img
+      alt="img"
+      src="math.png"
+    />
+    <div>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        href="/calc"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": "700px",
+        }
+      }
+    >
+      <h1
+        style={
+          Object {
+            "alignItems": "center",
+            "background": "#858694",
+            "color": "white",
+            "display": "flex",
+            "fontSize": "2.7em",
+            "height": "100px",
+            "justifyContent": "flex-end",
+            "margin": "0",
+            "padding": "0 20px",
+          }
+        }
+      >
+        0
+      </h1>
+      <div
+        style={
+          Object {
+            "height": "100px",
+          }
+        }
+      >
+        <button
+          className="sc-gsTCUz bSkYsq"
+          onClick={[Function]}
+          type="submit"
+        >
+          AC
+        </button>
+        <button
+          className="sc-dlfnbm gknAlF"
+          onClick={[Function]}
+          type="submit"
+        >
+          +/-
+        </button>
+        <button
+          className="sc-hKgILt kcsCwP"
+          onClick={[Function]}
+          type="submit"
+        >
+          %
+        </button>
+        <button
+          className="sc-eCssSg gDwKPk"
+          onClick={[Function]}
+          type="submit"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "height": "100px",
+          }
+        }
+      >
+        <button
+          className="sc-jSgupP ffzzZZ"
+          onClick={[Function]}
+          type="submit"
+        >
+          7
+        </button>
+        <button
+          className="sc-gKsewC jUYjMs"
+          onClick={[Function]}
+          type="submit"
+        >
+          8
+        </button>
+        <button
+          className="sc-iBPRYJ frMxXQ"
+          onClick={[Function]}
+          type="submit"
+        >
+          9
+        </button>
+        <button
+          className="sc-fubCfw LRcAN"
+          onClick={[Function]}
+          type="submit"
+        >
+          x
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "height": "100px",
+          }
+        }
+      >
+        <button
+          className="sc-pFZIQ ePTnjC"
+          onClick={[Function]}
+          type="submit"
+        >
+          4
+        </button>
+        <button
+          className="sc-jrAGrp fQJIRS"
+          onClick={[Function]}
+          type="submit"
+        >
+          5
+        </button>
+        <button
+          className="sc-kEjbxe jrjPwN"
+          onClick={[Function]}
+          type="submit"
+        >
+          6
+        </button>
+        <button
+          className="sc-iqHYGH oMksI"
+          onClick={[Function]}
+          type="submit"
+        >
+          -
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "height": "100px",
+          }
+        }
+      >
+        <button
+          className="sc-crrsfI jhMqwZ"
+          onClick={[Function]}
+          type="submit"
+        >
+          1
+        </button>
+        <button
+          className="sc-dQppl hkrGkf"
+          onClick={[Function]}
+          type="submit"
+        >
+          2
+        </button>
+        <button
+          className="sc-bqyKva bWkYac"
+          onClick={[Function]}
+          type="submit"
+        >
+          3
+        </button>
+        <button
+          className="sc-kstrdz fRRlLy"
+          onClick={[Function]}
+          type="submit"
+        >
+          +
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "height": "100px",
+          }
+        }
+      >
+        <button
+          className="sc-hBEYos cTBcku"
+          onClick={[Function]}
+          type="submit"
+        >
+          0
+        </button>
+        <button
+          className="sc-fodVxV iPuIxv"
+          onClick={[Function]}
+          type="submit"
+        >
+          .
+        </button>
+        <button
+          className="sc-fFubgz fRyBsU"
+          onClick={[Function]}
+          type="submit"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
