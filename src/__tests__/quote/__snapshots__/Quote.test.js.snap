@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav
+    className="sc-bdfBwQ hjshVr"
+  >
+    <img
+      alt="img"
+      src="math.png"
+    />
+    <div>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        href="/calc"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <main
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "fontSize": "2.5em",
+        "justifyContent": "center",
+        "paddingTop": "120px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": "80%",
+        }
+      }
+    >
+      <p>
+        "Mathematics is the most beautiful and most powerful creation of the human spirit."
+      </p>
+      <p>
+        - Stefan Banach
+      </p>
+    </div>
+  </main>,
+]
+`;

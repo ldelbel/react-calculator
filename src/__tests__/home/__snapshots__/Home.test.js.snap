@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav
+    className="sc-bdfBwQ hjshVr"
+  >
+    <img
+      alt="img"
+      src="math.png"
+    />
+    <div>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        href="/calc"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <h1
+    style={
+      Object {
+        "-webkit-background-clip": "text",
+        "-webkit-text-fill-color": "transparent",
+        "-webkit-text-stroke": "2px black",
+        "backgroundImage": "linear-gradient(to right, #ff6a00, #ee0979)",
+        "backgroundSize": "100%",
+        "fontSize": "6em",
+        "marginLeft": "50px",
+      }
+    }
+  >
+    Math Magicians
+  </h1>,
+  <p
+    style={
+      Object {
+        "fontSize": "1.2em",
+        "marginLeft": "140px",
+        "width": "80%",
+      }
+    }
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed nunc maximus, egestas nisi eget, lobortis erat. Morbi laoreet orci nisi, at pharetra elit vulputate a. Nulla id feugiat enim. Sed aliquet felis ac ex ornare, sed volutpat nulla suscipit. Pellentesque vulputate, eros ut tristique mollis, mi nunc tempus ante, sit amet pellentesque lacus ante et ex. Phasellus aliquam cursus arcu vel consequat. Phasellus in massa non lacus auctor fermentum a vel ex. Curabitur consectetur, turpis dictum ornare elementum, odio ipsum rhoncus enim, et suscipit nunc urna id urna. Donec ullamcorper erat arcu, a ultricies justo gravida sollicitudin. Etiam ultrices at tortor vel vehicula. Donec auctor sapien mauris, non vehicula felis facilisis id. Donec vitae neque et mi convallis maximus eget non erat.
+  </p>,
+]
+`;
